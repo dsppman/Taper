@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Helper">
+      <UniqueIdentifier>{350f98d3-2748-403b-8ffb-67ec263667fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信框架">
+      <UniqueIdentifier>{dd290d1c-0cd1-41b5-8715-a186e1ec22f9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信框架\初始化">
+      <UniqueIdentifier>{b8a20516-c0d5-4775-be88-f2da985a0e61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信框架\消息处理">
+      <UniqueIdentifier>{3a8e9d83-c43d-4145-afb8-4b5fec3877f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信框架\好友处理">
+      <UniqueIdentifier>{68988ef3-4e1c-4dda-b035-bd0b262a6add}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信框架\收款相关">
+      <UniqueIdentifier>{57995d84-51f8-4794-9d7e-dea7618b1481}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="微信框架\个人资料">
+      <UniqueIdentifier>{0c6bf306-0e67-47bd-bd26-96fa2079f398}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="App">
+      <UniqueIdentifier>{1a5fa2ec-8de1-42c6-9863-56c8f6a1323c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="pch.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="helper.h">
+      <Filter>Helper</Filter>
+    </ClInclude>
+    <ClInclude Include="app.h">
+      <Filter>App</Filter>
+    </ClInclude>
+    <ClInclude Include="wechat.h">
+      <Filter>微信框架</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="pch.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="helper.cpp">
+      <Filter>Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="app.cpp">
+      <Filter>App</Filter>
+    </ClCompile>
+    <ClCompile Include="wechat.cpp">
+      <Filter>微信框架</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_send_file.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_send_pic.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_send_text.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_handle_msg.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_agree_friend_req.cpp">
+      <Filter>微信框架\好友处理</Filter>
+    </ClCompile>
+    <ClCompile Include="vx_collect_money.cpp">
+      <Filter>微信框架\收款相关</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_get_info.cpp">
+      <Filter>微信框架\个人资料</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_init.cpp">
+      <Filter>微信框架\初始化</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_send_gif.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_send_card.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_add_friend.cpp">
+      <Filter>微信框架\好友处理</Filter>
+    </ClCompile>
+    <ClCompile Include="wx_send_xml.cpp">
+      <Filter>微信框架\消息处理</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
